@@ -1,6 +1,6 @@
 # Comment Classification
 
-![](https://github.com/piyushmanglani08/TEKSystems_HACK/blob/master/Image.jpeg)
+![](https://github.com/piyushmanglani08/TekSystems/blob/master/Image.jpeg)
 
 ### Project Description:
 
