@@ -26,6 +26,13 @@ def read_datasets(fname, t_type):
     return data
 
 
+def extract_features(document):
+    document_words = set(document)
+    features = {}
+    for word in word_features:
+      features['contains(%s)' % word] = (word in document_words)
+    return features
+
 
 def classify_dataset(data):
     return classifier.classify(extract_features(nltk.word_tokenize(data)))
@@ -81,3 +88,4 @@ else:
 else:
     final_res = 'Non-Toxic Comment'
     '''
+
