@@ -1,4 +1,4 @@
-# Toxic-Comment-Classification
+# Comment-Classification
 
 ![](https://github.com/piyushmanglani08/TEKSystems_HACK/blob/master/Image.jpeg)
 
