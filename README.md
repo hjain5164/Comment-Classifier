@@ -1,4 +1,4 @@
-# Toxic-Comment-Classification
+# Comment Classification
 
 ![](https://github.com/piyushmanglani08/TEKSystems_HACK/blob/master/Image.jpeg)
 
@@ -36,10 +36,11 @@ Virtual environments Use a virtual environment to manage the dependencies for yo
    
 - Intsalling Virtual Environment
    
-    ```
+   ```
     sudo pip3 install virtualenv
    
-    ```
+   ```
+    
    
 - create a virtual environment 
    
