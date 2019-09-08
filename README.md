@@ -8,15 +8,14 @@ With the recent growth of people on the internet, civil conversations are seeing
 
 ### Data
 
-Source: Kaggle:[https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge][id/name]. It consists of large number of Wikipedia comments which have been labeled by human raters for toxic behavior. 
+Source: It consists of large number of Wikipedia comments which have been labeled by human raters for toxic behavior. 
 The types of toxicity are: 
-- toxic 
-- severe_toxic 
-- obscene 
-- threat 
-- insult 
-- identity_hate
+- Anger 
+- Joy
+- Sadness 
+- Shame 
+- Guilt 
+- Disgust
+- Fear
 
--FastText crawl 300d 2M [https://www.kaggle.com/yekenot/fasttext-crawl-300d-2m/downloads/fasttext-crawl-300d-2m.zip/1][id/name]
- 2 million word vectors trained on Common Crawl (600B tokens)
- 
+
