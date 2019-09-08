@@ -55,8 +55,7 @@ Virtual environments Use a virtual environment to manage the dependencies for yo
     ```
 This wil install all the dependencies related to the project.
    
-   Now to start the project
-   
+- Now to start the project
    
     ```
     python filename.py 
