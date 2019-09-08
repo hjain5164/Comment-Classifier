@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request, render_template, flash
 from wtforms import Form, TextField, TextAreaField, validators, SubmitField
 import config
 import re
-import target1_new as t
+import Model_Classifier as t
 import score_cleaning as sc
 
 app = Flask(__name__)
