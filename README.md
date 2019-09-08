@@ -25,10 +25,12 @@ The types of toxicity are:
 
 ### Steps to run project on local computer
 
-    ```
+- Cloning Repository 
+    
+   ```
     git clone project link
     
-    ```
+   ```
     
 After cloning the project move to the project folder and use the following commands to install dependencies. 
     
@@ -54,7 +56,7 @@ Virtual environments Use a virtual environment to manage the dependencies for yo
     pip install requirments.txt  
     
     ```
-This wil install all the dependencies related to the project.
+   This will install all the dependencies related to the project.
    
 - Now to start the project
    
