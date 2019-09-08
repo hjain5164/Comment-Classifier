@@ -18,24 +18,52 @@ The types of toxicity are:
 - Disgust
 - Fear
 
-###Pre_Requisite
+### PreRequisite
 
-   Python Version should be 3.7.0 or above.
+   Python Version should be installed 3.7.0 or above.
    pip should be present.
 
-###Steps to install Flask on your System
+### Steps to run project on local computer
 
-Type following commands on your terminal.
-
-   pip install virtualenv using the command "sudo pip3 install virtualenv"
-   Now create a virtual environment using "virtualenv venv" you can use any name insted of venv
-   Move to project folder using cd command
-   Run the command "pip install flask"
-
-###How to execute the code on your System
-
-   Open your terminal , move to project folder using cd command.
-   Run python flask_2.py on terminal
+    ```
+    git clone project link
+    
+    ```
+    
+After cloning the project move to the project folder and use the following commands to install dependencies. 
+    
+Virtual environments Use a virtual environment to manage the dependencies for your project, both in development and in        production.Virtual environments are independent groups of Python libraries, one for each project. Packages installed          for one project will not affect other projects or the operating system's packages.
+   
+- Intsalling Virtual Environment
+   
+    ```
+    sudo pip3 install virtualenv
+   
+    ```
+   
+- create a virtual environment 
+   
+    ```
+    virtualenv anyname  
+   
+    ```
+- Installing Dependencies
+   
+    ```
+    pip install requirments.txt  
+    
+    ```
+This wil install all the dependencies related to the project.
+   
+   Now to start the project
+   
+   
+    ```
+    python filename.py 
+    
+    ```
+    
    Wait for few seconds for model training.
    Move to the port http://127.0.0.1:5000/ which is being locally hosted.
    Bang !! Find out whether the comment is toxic or not
+   
