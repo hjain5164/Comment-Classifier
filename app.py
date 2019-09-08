@@ -11,7 +11,7 @@ app = Flask(__name__)
 DEBUG = True
 app = Flask(__name__)
 app.config.from_object(__name__)
-app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
+app.config['SECRET_KEY'] = '7d441f27d441f27567d44522b6176a'
 
 global vul_comment
 
