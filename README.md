@@ -1,4 +1,4 @@
-# Comment-Classification
+# Toxic-Comment-Classification
 
 ![](https://github.com/piyushmanglani08/TEKSystems_HACK/blob/master/Image.jpeg)
 
@@ -18,4 +18,24 @@ The types of toxicity are:
 - Disgust
 - Fear
 
+###Pre_Requisite
 
+   Python Version should be 3.7.0 or above.
+   pip should be present.
+
+###Steps to install Flask on your System
+
+Type following commands on your terminal.
+
+   pip install virtualenv using the command "sudo pip3 install virtualenv"
+   Now create a virtual environment using "virtualenv venv" you can use any name insted of venv
+   Move to project folder using cd command
+   Run the command "pip install flask"
+
+###How to execute the code on your System
+
+   Open your terminal , move to project folder using cd command.
+   Run python flask_2.py on terminal
+   Wait for few seconds for model training.
+   Move to the port http://127.0.0.1:5000/ which is being locally hosted.
+   Bang !! Find out whether the comment is toxic or not
